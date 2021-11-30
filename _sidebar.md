@@ -1,7 +1,7 @@
 
 * Android
 
- - [adb命令](./docs/adb操作.md)
+    * [adb命令](./docs/adb操作.md)
 
 * Java
 
