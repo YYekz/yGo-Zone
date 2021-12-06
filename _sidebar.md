@@ -1,5 +1,5 @@
 
-* [Android](./docs/Android.md)
+* Android
 
     * [adb命令](./docs/adb操作.md)
     * [MMKV](./docs/MMKV.md)
