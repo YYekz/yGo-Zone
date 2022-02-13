@@ -13,12 +13,6 @@ Systrace 是平台提供的旧版命令行工具，可记录短时间内的设�
 ### Perfetto是什么？
 [Perfetto](https://ui.perfetto.dev/)是 Android 10 中引入的全新平台级跟踪工具。这是适用于 Android、Linux 和 Chrome 的更加通用和复杂的开源跟踪项目。与 Systrace 不同，它提供数据源超集，可让您以 protobuf 编码的二进制流形式记录任意长度的跟踪记录。在搭载 Android 10（API 级别 29）或更高版本的设备上，跟踪文件会以 Perfetto 格式保存。
 
-同一份文件用Systrace打开：
-![](media/16393627577265/16393630546638.jpg)
-
-用Perfetto打开：
-![](media/16393627577265/16393631484125.jpg)
-
 #### 优点
 Systrace和Perfetto（以下简称`这俩工具`）可以帮助我们梳理出整个手机（不止当前应用）从统计开始，到统计结束的所有相关进程、线程、系统服务、CPU利用率等全局信息，我们可以从中排查关键点，方便我们查询问题。
 
